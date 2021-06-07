@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { FlipCard } from 'react-flipcard'
+import { FlipCard } from 'react-flippingcard'
 
 
 const App = () => {
