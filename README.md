@@ -20,7 +20,7 @@ import {FlipCard} from 'react-flipcard'
 
 class Example extends Component {
   render() {
-   return <FlipCard direction='vertical' front={<div><h1>Front face</h1></div>} back={<div><h1>Back face</h1></div>} />
+   return <FlipCard front={<div><h1>Front face</h1></div>} back={<div><h1>Back face</h1></div>} />
   }
 }
 ```
