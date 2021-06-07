@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { FlipCard } from 'react-trail-lib'
+import { FlipCard } from 'react-flipcard'
 
 
 const App = () => {
