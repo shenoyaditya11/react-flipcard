@@ -16,7 +16,7 @@ npm install --save react-flipcard
 import React, { Component } from 'react'
 
 import FlipCard from 'react-flipcard'
-import 'react-flipcard/dist/index.css'
+
 
 class Example extends Component {
   render() {
