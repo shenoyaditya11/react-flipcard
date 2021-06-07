@@ -1,10 +1,10 @@
 import React from 'react'
 
-import { ExampleComponent } from 'react-flipcard'
-import 'react-flipcard/dist/index.css'
+import { FlipCard } from 'react-trail-lib'
+
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <FlipCard front={<div><h1>Front face</h1></div>} back={<div><h1>Back face</h1></div>} />
 }
 
 export default App
