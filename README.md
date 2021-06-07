@@ -15,12 +15,12 @@ npm install --save react-flipcard
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'react-flipcard'
+import FlipCard from 'react-flipcard'
 import 'react-flipcard/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <FlipCard front={<div><h1>Front face</h1></div>} back={<div><h1>Back face</h1></div>} />
   }
 }
 ```
